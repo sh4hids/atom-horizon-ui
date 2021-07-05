@@ -1,4 +1,3 @@
-
 // Tabs
 // -------------------
 
@@ -19,8 +18,8 @@
     &.active {
       color: @text-color-selected;
       background-color: @tab-background-color-active;
+      border-bottom: 1px solid @tab-border-color-active;
     }
-
 
     // Modified Icon (the circle) -------------------
     &.modified:not(:hover) .close-icon {
@@ -33,7 +32,6 @@
       color: currentColor;
     }
 
-
     // Close Icon (the X) -------------------
     .close-icon:hover {
       color: @text-color-selected;
@@ -42,13 +40,12 @@
       color: @text-color;
     }
 
-
     // Dragging -------------------
     // Styles get applied while dragging a tab
     &.is-dragging {
       background: darken(@tab-background-color, 10%);
       border-color: transparent;
-      opacity: .5;
+      opacity: 0.5;
       & .close-icon {
         visibility: hidden;
       }
