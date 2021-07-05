@@ -10,15 +10,15 @@
 // A good start is to change the color of the `@base-background-color` variable.
 
 // Text Colors
-@text-color: hsl(235, 15%, 50%);
-@text-color-subtle: hsl(233, 15%, 21%);
+@text-color: #d5d8da;
+@text-color-subtle: hsl(234, 4%, 53%);
 @text-color-highlight: hsl(204, 6%, 85%);
 @text-color-selected: hsl(204, 6%, 85%);
 
 @text-color-info: hsl(184, 67%, 44%);
 @text-color-success: hsl(158, 69%, 50%);
 @text-color-warning: hsl(20, 92%, 77%);
-@text-color-error: hsl(350, 89%, 60%);
+@text-color-error: #f43e5c;
 
 // Background colors
 @background-color-info: hsl(208, 100%, 50%);
@@ -27,19 +27,18 @@
 @background-color-error: hsl(0, 70%, 50%);
 
 @background-color-highlight: hsl(228, 15%, 13%);
-@background-color-selected: hsl(231, 16%, 16%);
+@background-color-selected: hsla(235, 15%, 50%, 0.5);
 @app-background-color: hsl(240, 12%, 10%);
 
 // Base colors
 @base-background-color: hsl(227, 15%, 12%);
 @base-border-color: @base-background-color;
-// @base-border-color: hsl(240, 12%, 10%);
 
 // Component colors
 @pane-item-background-color: @base-background-color;
 @pane-item-border-color: @base-border-color;
 
-@input-background-color: @app-background-color;
+@input-background-color: #2e303e;
 @input-border-color: @base-border-color;
 
 @tool-panel-background-color: @base-background-color;
@@ -54,7 +53,7 @@
 @overlay-background-color: lighten(@base-background-color, 5%);
 @overlay-border-color: @base-border-color;
 
-@button-background-color: lighten(@base-background-color, 10%);
+@button-background-color: #2e303e;
 @button-background-color-hover: lighten(@button-background-color, 12%);
 @button-background-color-selected: @button-background-color-hover;
 @button-border-color: @base-border-color;
@@ -68,6 +67,12 @@
 
 @tree-view-background-color: @base-background-color;
 @tree-view-border-color: @base-border-color;
+
+// Scrollbars
+@scrollbar-color: hsla(235, 15%, 50%, 0.3);
+@scrollbar-active-color: hsla(235, 15%, 50%, 0.5);
+@scrollbar-background-color: @base-background-color;
+@scrollbar-border-color: #1c1e26;
 
 // Site colors
 @ui-site-color-1: hsl(190, 70%, 50%); // blue
