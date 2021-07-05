@@ -1,7 +1,7 @@
 {
   "name": "atom-horizon-ui",
   "theme": "ui",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A UI theme for atom based on horizon theme vscode",
   "keywords": [
     "ui",
